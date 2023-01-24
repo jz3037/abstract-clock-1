@@ -17,6 +17,7 @@ function setup() {
 function draw() {
   background(255);
   stroke(0);
+  window.print(minute())
 
   let c = color(random(180,260), random(45,135), random(110,190))
   for(let i = 0; i<y.length; i++){
